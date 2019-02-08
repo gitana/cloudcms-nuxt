@@ -1,0 +1,22 @@
+{
+  "name": "cloudcms-nuxt",
+  "version": "1.0.0",
+  "description": "CloudCMS Nuxt.js Module",
+  "license": "Apache 2.0",
+  "contributors": [
+    {
+      "name": "Michael Whitman <michael.whitman@cloudcms.com"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "",
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "gitana": "^1.0.286"
+  }
+}

@@ -9,7 +9,7 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "",
+  "repository": "https://github.com/gitana/cloudcms-nuxt",
   "eslintIgnore": [
     "lib/templates/*.*"
   ],

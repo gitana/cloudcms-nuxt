@@ -1,6 +1,6 @@
 {
   "name": "cloudcms-nuxt",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "CloudCMS Nuxt.js Module",
   "license": "Apache 2.0",
   "contributors": [
@@ -17,6 +17,6 @@
     "lib"
   ],
   "dependencies": {
-    "gitana": "^1.0.286"
+    "cloudcms": "^0.1.8"
   }
 }

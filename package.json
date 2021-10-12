@@ -17,6 +17,10 @@
     "lib"
   ],
   "dependencies": {
-    "cloudcms": "^0.1.8"
+    "cloudcms": "^0.1.8",
+    "mime-types": "^2.1.33"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
   }
 }

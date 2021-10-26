@@ -17,7 +17,7 @@
     "lib"
   ],
   "dependencies": {
-    "cloudcms": "^0.1.8",
+    "cloudcms": "file:../cloudcms-javascript-driver",
     "mime-types": "^2.1.33"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "cloudcms-nuxt",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "CloudCMS Nuxt.js Module",
   "license": "Apache 2.0",
   "contributors": [
@@ -17,7 +17,7 @@
     "lib"
   ],
   "dependencies": {
-    "cloudcms": "file:../cloudcms-javascript-driver",
+    "cloudcms": "^0.1.13",
     "mime-types": "^2.1.33"
   },
   "devDependencies": {

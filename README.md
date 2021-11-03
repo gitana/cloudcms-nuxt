@@ -50,11 +50,11 @@ In more detail, these are:
 
 ## Example Usage
 
-The `$cloudcms` context variable is available on the `context`.  Here is how you can read a node.
+The `$cloudcms` context variable is available on the `context`, providing access to all functions in the [Cloudcms driver](https://github.com/gitana/cloudcms-javascript-driver). The `$branch` provides functions to your current project branch, which is by default `master`.   Here is how you can read a node.
 
 ```javascript
 async asyncData(context) {
-    let node = await context.$cloudcms.readNode(process.env.repositoryId, process.env.branchId, "myNodeId");
+    let node = await context.$branch.readNode("myNodeId");
     // more awesome content functions
 }
 ```
